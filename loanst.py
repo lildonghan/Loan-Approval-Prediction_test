@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 @st.cache_data
 def load_data():
     # 데이터 로드
-    df_train = pd.read_csv('./dataset/train.csv')
+    df_train = pd.read_csv('data/train.csv')
     return df_train
 
 # 메인 대시보드 함수
